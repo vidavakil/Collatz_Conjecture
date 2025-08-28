@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="CollatzCells.png" alt="Collatz Cell Transitions">
+</p>
+
 # About
-In the summer of 2021, I spent two months consumed by the Collatz conjecture. I examined binary and ternary representations of numbers as they were transformed by Collatz rules, and started noticing interesting patterns. Any randomly selected binary number may look like a random sequence of 0s and 1s, but it can always be segmented into smaller chunks (which I call "cells") that have a more regular structure. I identified three cell types: ALL_ONES, ALL_ZEROS, and ALT_01S (please see the PDF file). Any binary number can be uniquely segmented from right (LSB) to left (MSB), one cell at a time. I color-coded these cells, studied and tabulated their transitions, developed an ipynb notebook for simulating and visualizing their transitions, and documented the patterns I observed. 
+In the summer of 2021, I spent two months consumed by the Collatz conjecture. I examined binary and ternary representations of numbers as they were transformed by Collatz rules, and started noticing interesting patterns. Any randomly selected binary number may look like a random sequence of 0s and 1s, but it can always be segmented into smaller chunks (which I call "cells") that have a more regular structure. I identified three cell types: ALL_ONES, ALL_ZEROS, and ALT_01S ([please see the PDF file](CollatzConjecture.pdf)). Any binary number can be uniquely segmented from right (LSB) to left (MSB), one cell at a time. I color-coded these cells, studied and tabulated their transitions, developed an ipynb notebook for simulating and visualizing their transitions, and documented the patterns I observed. 
 
 I didn't find a proof, but I showed that one type of cells (blue) has advantages over another type (red) that seem to tilt the balance of the opposite forces that shrink and expand the bit sequence towards shrinkage--creating an overall attraction that drives any number down to 1. I didn't arrive at a formal proof, and I don't have the mathematical chops for it, so I stopped in late summer 2021.
 
